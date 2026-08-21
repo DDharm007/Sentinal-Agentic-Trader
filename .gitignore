@@ -1,0 +1,9 @@
+node_modules
+dist
+.sandbox
+*.log
+.venv
+.venv-*
+__pycache__/
+*.pyc
+.credentials.json

@@ -1,0 +1,18 @@
+{
+  "name": "sentinel-control-plane",
+  "private": true,
+  "version": "1.0.0",
+  "description": "SENTINEL - Autonomous Operations Control Plane (ArmorIQ Problem 1)",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix web install",
+    "dev": "concurrently -n gateway,console -c cyan,green \"npm --prefix server run dev\" \"npm --prefix web run dev\"",
+    "build": "npm --prefix server run build && npm --prefix web run build",
+    "start": "npm --prefix server start",
+    "setup:python": "python -m venv .venv && .venv/Scripts/python.exe -m pip install -r requirements.txt",
+    "sdk:selftest": ".venv/Scripts/python.exe sdk_selftest.py --pretty",
+    "test:python": ".venv/Scripts/python.exe test_suite.py"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

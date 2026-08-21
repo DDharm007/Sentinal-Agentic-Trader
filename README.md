@@ -3,7 +3,7 @@
 <p align="center">
   <img src="docs/screenshots/01-command-center.png" alt="SENTINEL Command Center — live authorization feed and intent execution graph" width="100%" />
 </p>
-
+     
 <p align="center">
   <strong>Automate India Hackathon — ArmorIQ Track (Problem 1: "Autonomous, until it shouldn't be")</strong><br/>
   <sub>Team Craftoraa · ID 8206367C179E · Parul Polytechnic Institute</sub>
